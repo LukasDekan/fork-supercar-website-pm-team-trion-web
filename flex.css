@@ -188,6 +188,9 @@
         display: flex;
         background-image: linear-gradient(to right, gray, black, gray, black, grey);
         color:white;
+        border: solid 1px white;
+        padding-right: 80rem;
+        font-size: x-large;
       }
 
       
