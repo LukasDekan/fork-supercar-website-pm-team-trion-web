@@ -184,6 +184,13 @@
         padding: 10px;
       }
 
+      .content_box{
+        display: flex;
+        background-image: linear-gradient(to right, gray, black, gray, black, grey);
+      }
+
+      
+
         
 
       
