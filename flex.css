@@ -186,6 +186,7 @@
 
       .content_box{
         display: flex;
+        flex-shrink:1;
         background-image: linear-gradient(to right, gray, black, gray, black, grey);
         color:white;
         border: solid 1px white;
