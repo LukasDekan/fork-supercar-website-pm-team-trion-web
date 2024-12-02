@@ -185,9 +185,12 @@
       }
 
       .content_box{
-        display: flex;
-        background-image: linear-gradient(to right, gray, black, gray, black, grey);
         color:white;
+        border: solid 1px white;
+        padding: 20rem;
+        font-size: xx-large;
+        padding-right: 10rem;
+        background-image: linear-gradient(black, gray, black);
       }
 
       
