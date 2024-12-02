@@ -188,37 +188,8 @@
 
       
 
-/* Smartphones */
-@media only screen and (max-width: 480px){
-  .whole{
-      width:fit-content;
-  }
-  .half{
-      width:fit-content;
-  }
-  .third{
-      width:fit-content;
-  }
-  .quarter{
-      width:fit-content;
-  }
-}
 
-/* Tablets */
-@media only screen and (max-width: 1024px){
-  .whole{
-      width: fit-content;
-  }
-  .half{
-      width: fit-content;
-  }
-  .third{
-      width: fit-content;
-  }
-  .quarter{
-      width: fit-content;
-  }
-}
+
 
 
 
