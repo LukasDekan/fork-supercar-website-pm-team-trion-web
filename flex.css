@@ -236,6 +236,10 @@
         to {opacity: 1}
       }
 
+      img {
+        vertical-align: middle;
+      }
+
       .content_box{
         display: flex;
         background-image: linear-gradient(to right, gray, black, gray, black, grey);
