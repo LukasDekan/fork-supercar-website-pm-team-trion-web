@@ -23,29 +23,41 @@
               </li>
             </ul>
           </nav>
-<<<<<<< HEAD
         <div class="slideshow-container">
-            
-=======
-        <article class="scroll-container">
+          <div class="mySlides fade">
+            <img src="/trion_homepage_images/7_25-Lux-Black-Nemesis_rr-crop-1024x682.png" style="width:100%">
+          </div>
 
->>>>>>> 1317c0c4490cbc2e8b726187b26598f92c5bf966
-            <img src="/trion_homepage_images/7_25-Lux-Black-Nemesis_rr-crop-1024x682.png" width="45%" height alt="rear">
-            <img src="/trion_homepage_images/7_25-Lux-Black-Nemesis_side-cropped2-1024x575.png" width="53.5%" alt="wheel">
-            <img src="/trion_homepage_images/Nemesis_Interior_render1-1024x575.jpg" width="53.5%" alt="wheel">
-            <img src="/trion_homepage_images/dup-reg-cloudy-road-1024x641.png" width="48%" alt="cloudy">
-    
-<<<<<<< HEAD
+          <div class="mySlides fade">
+            <img src="/trion_homepage_images/7_25-Lux-Black-Nemesis_side-cropped2-1024x575.png" style="width:100%">            <div>
+          </div>
 
+          <div class="mySlides fade">
+            <img src="/trion_homepage_images/Nemesis_Interior_render1-1024x575.jpg" style="width:100%">
+
+          <div class="mySlides fade">
+            <img src="/trion_homepage_images/dup-reg-cloudy-road-1024x641.png" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <br>
+
+
+          <div style="text-align:center">
+          <span class="dot" onclick="(1)"></span>
+          <span class="dot" onclick="(2)"></span>
+          <span class="dot" onclick="(3)"></span>
+          </div>
         </div>
-=======
-        </article>
-      <article  class="content_box">
-          <section>
-            <p>The SEMA (Specialty Equipment Market Association) Auto Show is an annual trade event in Las Vegas showcasing the latest in automotive products, customization, and aftermarket innovations. For Trion Supercars, SEMA provides critical exposure, enabling the brand to connect with potential partners, media, and customers, which is vital for growth and market presence in the competitive supercar industry.</p>
-          </section>
+        =======
       </article>
-        
+    <article  class="content_box">
+        <section>
+          <p>The SEMA (Specialty Equipment Market Association) Auto Show is an annual trade event in Las Vegas showcasing the latest in automotive products, customization, and aftermarket innovations. For Trion Supercars, SEMA provides critical exposure, enabling the brand to connect with potential partners, media, and customers, which is vital for growth and market presence in the competitive supercar industry.</p>
+        </section>
+    </article>
+      
 >>>>>>> 1317c0c4490cbc2e8b726187b26598f92c5bf966
 
        
@@ -71,6 +83,37 @@
     <article class="footer_extra">
       <p>Created by Lukas and Jack; November 2024</p>
     </article>
+
+    <!-- java script -->
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+      
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+      
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+      
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+      
     
 </body>
 </html>
