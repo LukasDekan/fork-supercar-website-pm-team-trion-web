@@ -181,7 +181,6 @@
         max-width: 100%;
         position: relative;
         margin: auto;
-<<<<<<< HEAD
       }
 
       .main-container{
@@ -193,8 +192,6 @@
       .box_control{
         position:relative;
         height: 500px;
-=======
->>>>>>> 39cb089738e542f59a96eae1c063862a575669e2
       }
 
       .mySlides {
@@ -256,7 +253,6 @@
 
 
       .content_box{
-<<<<<<< HEAD
         display:block;
         align-self: flex-end;
         position:absolute;   
@@ -323,8 +319,6 @@
 
 
       .content_box{
-=======
->>>>>>> 39cb089738e542f59a96eae1c063862a575669e2
         display: flex;
         background-image: linear-gradient(to right, gray, black, gray, black, grey);
         color:white;
