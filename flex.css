@@ -183,7 +183,6 @@
         margin: auto;
       }
 
-<<<<<<< HEAD
       .main-container{
         position:relative;
       }
@@ -203,7 +202,6 @@
         width: 50%;
         height: 80%;
         padding:4rem;
-=======
       .mySlides {
         display: none;
       }
@@ -265,7 +263,6 @@
       .content_box{
         display: flex;
         background-image: linear-gradient(to right, gray, black, gray, black, grey);
->>>>>>> 39cb089738e542f59a96eae1c063862a575669e2
         color:white;
         border: solid 1px white;
         font-size: x-large;
@@ -290,11 +287,3 @@
         
 
       
-
-
-
-
-
-
-
-
