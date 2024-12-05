@@ -342,6 +342,11 @@
         top:0;
         justify-self: flex-start;
       }
+
+      .image_border{
+        height: 52.5%;
+        border: 1px solid white;
+      }
       
       .box_control{
         position:relative;
