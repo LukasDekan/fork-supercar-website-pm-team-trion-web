@@ -259,13 +259,7 @@
 
 
       .content_box{
-        display:block;
-        align-self: flex-end;
-        position:absolute;   
-        z-index: 5;     
-        width: 50%;
-        height: 80%;
-        padding:4rem;
+        
       }
       .mySlides {
         display: none;
@@ -326,8 +320,11 @@
 
 
       .content_box{
+        z-index: 5;     
+        width: 50%;
+        height: 100%;
+        padding:4rem;
         display: flex;
-        background-image: linear-gradient(to right, gray, black, gray, black, grey);
         color:white;
         border: solid 1px white;
         font-size: x-large;
@@ -346,6 +343,10 @@
         justify-self: flex-start;
       }
       
+      .box_control{
+        position:relative;
+        height: 600px;
+      }
 
       
 
