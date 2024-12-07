@@ -12,69 +12,67 @@
         <nav role="navigation">
             <ul>
               <li><a href="index.html"><img src="trion_homepage_images/Trion_logo.png" class="home_button" width="55rem" alt="aeradsf"></a></li>
-                <li><a><img src="/trion_homepage_images/menu.png" class="hamburger" width="60rem" alt="r"></a>
-                  <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="models.html">Models</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="merch.html">Merch</a></li>
-                    <li><a href="account.html">Account</a></li>
-                    <li><a href="models-configurator.html">Configurator</a></li>
-                  </ul>
+              <li class="dropdown"><a><img src="/trion_homepage_images/menu.png" class="hamburger" width="60rem" alt="r"></a>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="models.html">Models</a></li>
+                  <li><a href="about-us.html">About Us</a></li>
+                  <li><a href="merch.html">Merch</a></li>
+                  <li><a href="account.html">Account</a></li>
+                  <li><a href="models-configurator.html">Configurator</a></li>
+                  <li><a href="shopping_cart.html">Cart</a></li>
+                </ul>
               </li>
             </ul>
           </nav>
-        <div class="slideshow-container">
-          <div class="mySlides fade">
-            <img src="/trion_homepage_images/7_25-Lux-Black-Nemesis_rr-crop-1024x682.png" style="width:100%">
-          </div>
-
-          <div class="mySlides fade">
-            <img src="/trion_homepage_images/7_25-Lux-Black-Nemesis_side-cropped2-1024x575.png" style="width:100%"><div>
-          </div>
-
-          <div class="mySlides fade">
-            <img src="/trion_homepage_images/Nemesis_Interior_render1-1024x575.jpg" style="width:100%"></div>
-
-          <div class="mySlides fade">
-            <img src="/trion_homepage_images/dup-reg-cloudy-road-1024x641.png" style="width:100%">
-          </div>
-
-          <a class="prev" onclick="plusSlides(-1)">❮</a>
-          <a class="next" onclick="plusSlides(1)">❯</a>
-          </div>
-          <br>
-
-
-          <div style="text-align:center">
-          <span class="dot" onclick="(1)"></span>
-          <span class="dot" onclick="(2)"></span>
-          <span class="dot" onclick="(3)"></span>
-          <span class="dot" onclick="(4)"></span>
-          </div>
-
-
-
-
-      <article  class="box_control">
-          <section class="content_box">
-            <p>The SEMA (Specialty Equipment Market Association) Auto Show is an annual trade event in Las Vegas showcasing the latest in automotive products, customization, and aftermarket innovations. For Trion Supercars, SEMA provides critical exposure, enabling the brand to connect with potential partners, media, and customers, which is vital for growth and market presence in the competitive supercar industry.</p>
-          </section>
-          <section class="image_box">
-            <img src="trion_homepage_images/sema.png" width="100%" alt="a">
-          </section>
-      </article>
-
-      <article  class="box_control">
-        <section class="content_box">
-          <p>Trion Electric Supercars is partnering with Career Technical Education Charter High School, Duncan Polytechnical High School, the Center for Advanced Research and Technology, and Fresno State to help develop modifications for its car of the future, "Nemesis."</p>
-        </section>
-        <section class="image_box">
-          <img src="trion_homepage_images/name.png" width="100%" alt="a">
-        </section>
-      </article>
-       
     </header>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="/trion_homepage_images/7_25-Lux-Black-Nemesis_rr-crop-1024x682.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="/trion_homepage_images/7_25-Lux-Black-Nemesis_side-cropped2-1024x575.png" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="/trion_homepage_images/Nemesis_Interior_render1-1024x575.jpg" style="width:100%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="/trion_homepage_images/dup-reg-cloudy-road-1024x641.png" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      <br>
+
+      <div style="text-align:center">
+      <span class="dot" onclick="showSlides(0)"></span>
+      <span class="dot" onclick="showSlides(1)"></span>
+      <span class="dot" onclick="showSlides(2)"></span>
+      <span class="dot" onclick="showSlides(3)"></span>
+      </div>
+    </div>
+
+  <article  class="box_control">
+      <section class="content_box">
+        <p>The SEMA (Specialty Equipment Market Association) Auto Show is an annual trade event in Las Vegas showcasing the latest in automotive products, customization, and aftermarket innovations. For Trion Supercars, SEMA provides critical exposure, enabling the brand to connect with potential partners, media, and customers, which is vital for growth and market presence in the competitive supercar industry.</p>
+      </section>
+      <section class="image_box">
+        <img src="trion_homepage_images/sema.png" width="100%" alt="a">
+      </section>
+  </article>
+
+  <article  class="box_control">
+    <section class="content_box">
+      <p>Trion Electric Supercars is partnering with Career Technical Education Charter High School, Duncan Polytechnical High School, the Center for Advanced Research and Technology, and Fresno State to help develop modifications for its car of the future, "Nemesis."</p>
+    </section>
+    <section class="image_box">
+      <img src="trion_homepage_images/name.png" width="100%" alt="a">
+    </section>
+  </article>
     
     <footer>
         <section class="footer-title">
@@ -99,10 +97,11 @@
 
     <!-- java script -->
     <script>
-      let slideIndex = 1;
+      let slideIndex = 0;
       showSlides(slideIndex);
       
       function plusSlides(n) {
+        console.log(n);
         showSlides(slideIndex += n);
       }
       
@@ -111,19 +110,23 @@
       }
       
       function showSlides(n) {
+        console.log(n);
         let i;
         let slides = document.getElementsByClassName("mySlides");
         let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = slides.length}
+        if (n > slides.length - 1) {n = 0}
+        if (n < 0) {
+          n = slides.length - 1;
+        }
+        slideIndex = n;
         for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";  
+          slides[i].style.display = "none";
         }
         for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
+          dots[i].classList.remove("active");
         }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
+        slides[n].style.display = "block";  
+        dots[n].classList.add("active");
       }
       </script>
       
