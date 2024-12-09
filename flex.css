@@ -287,7 +287,20 @@ footer {
 
 
 
+      .config_image{
+        width: 80%;
+      }
+      .config_image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
 
+      .config_options{
+        display:flex;
+        flex-direction: column;
+        width: 20%;
+      }
 
       .config_option-controller{
         display:flex;
@@ -296,37 +309,30 @@ footer {
         text-align: center;
       }
 
+      .config_options a{
+        justify-self: flex-start;
+        text-decoration: none;
+        background: black;
+        padding: 2rem;
+        color: white;
+        border: solid 1px white;
+        text-align: center;
+        font-size: medium;
+      }
+
+      .config_option-controller a:hover{
+        background-color: darkgrey;
+        transition-duration: 300ms;
+      }
+
       .headlight_link-text{
         align-self: left;
       }
 
-      .config_option a{
-        text-decoration: none;
-        color: white;
-        text-align: center;
-        font-size: medium;
-        /* padding: 1rem; */
-      }
-
-      .config_option a:hover{
-        background-color: darkgrey;
-        border-radius:1rem;
-        transition-duration: 300ms;
-      }
-
-      .config_option{
-        display: block;
-        padding: 1rem;
-        width: 20%;
-        border: solid 1px white;
-        background-image: linear-gradient(black, gray, black);
-      }
-
       .image_config_controller{
-        display: block;
-        flex-direction: column;
-        align-self: flex-end;
-        justify-self: flex-start;
+        align-self: flex-start;
+        flex-wrap: wrap;
+        justify-content: flex-start;
       }
 
 
