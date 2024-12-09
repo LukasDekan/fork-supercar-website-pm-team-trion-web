@@ -272,19 +272,28 @@ footer {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       .config_option-controller{
         display:flex;
         flex-direction:column;
         align-items: flex-end;
         text-align: center;
-      }
-
-      .config_option{
-        display: block;
-        padding: 1rem;
-        width: 20%;
-        border: solid 1px white;
-        background-image: linear-gradient(black, gray, black);
       }
 
       .headlight_link-text{
@@ -305,12 +314,27 @@ footer {
         transition-duration: 300ms;
       }
 
-      /* .image_config_controller{
+      .config_option{
+        display: block;
+        padding: 1rem;
+        width: 20%;
+        border: solid 1px white;
+        background-image: linear-gradient(black, gray, black);
+      }
+
+      .image_config_controller{
         display: block;
         flex-direction: column;
         align-self: flex-end;
         justify-self: flex-start;
-      } */
+      }
+
+
+
+
+
+
+      
 
       /* .config_controller{
         display: block;
