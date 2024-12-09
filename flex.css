@@ -344,7 +344,12 @@ footer {
         transition-duration: 500ms;
       }
 
-
+      .equip_button_controller{
+        text-align: center;
+        background: darkgrey;
+        align-self: flex-end;
+        justify-self: flex-start;
+      }
 
       .prev, .next {
         z-index: 100;
