@@ -28,6 +28,12 @@ header marquee img{
         width: 60%;
       }
     /* HERO IMAGE */
+
+    .hero_image_config-page{
+      display:block;
+      justify-content: center;
+      width: 60%;
+    }
    
       
       nav {
@@ -155,6 +161,8 @@ ul li ul {
   display: none;
   width: fit-content;
 }
+
+
 
 /* header nav ul li a{
   display: flex;
@@ -300,11 +308,12 @@ footer {
         display:flex;
         flex-direction: column;
         width: 20%;
+        align-self: flex-end;
       }
 
       .config_option-controller{
         display:flex;
-        flex-direction:column;
+        flex-direction:row;
         align-items: flex-end;
         text-align: center;
       }
@@ -313,7 +322,7 @@ footer {
         justify-self: flex-start;
         text-decoration: none;
         background: black;
-        padding: 2rem;
+        padding: 2.9rem;
         color: white;
         border: solid 1px white;
         text-align: center;
@@ -322,6 +331,7 @@ footer {
 
       .config_option-controller a:hover{
         background-color: darkgrey;
+        color:black;
         transition-duration: 300ms;
       }
 
