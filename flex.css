@@ -28,7 +28,56 @@ header marquee img{
         width: 60%;
       }
     /* HERO IMAGE */
-   
+
+    .hero_image_config-page{
+      display: block;
+      justify-content: center;
+      width: 100%;
+    }
+    
+      .config_text-container{
+        display: block;
+      }
+
+      .config_text-container p{
+        display: flex;
+        justify-self: center;
+        text-align: left;
+        font-size: x-large;
+        color: white;
+      }
+
+      .config_text-container h1{
+        justify-self: center;
+        text-align: left;
+        font-size: xx-large;
+        color: white;
+      }
+
+      .config_text-container h2{
+        justify-self: center;
+        text-align: left;
+        font-size: xx-large;
+        color: white;
+      }
+
+      .interior-exterior_selection{
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        text-align: left;
+        font-size: large;
+        color: white;
+      }
+    
+
+      .image-button{
+        width:62%;
+      }
+
+      .image-button-2{
+        width:60%;
+      }
       
       nav {
         display: flex;
@@ -50,6 +99,10 @@ header marquee img{
         list-style: none;
         margin: 0;
         padding-left: 0;
+      }
+
+      .text-container-apply-confirm{
+        display: flex;
       }
 
 :root{
@@ -155,6 +208,8 @@ ul li ul {
   display: none;
   width: fit-content;
 }
+
+
 
 /* header nav ul li a{
   display: flex;
@@ -301,11 +356,12 @@ footer {
         display:flex;
         flex-direction: column;
         width: 20%;
+        align-self: flex-end;
       }
 
       .config_option-controller{
         display:flex;
-        flex-direction:column;
+        flex-direction:row;
         align-items: flex-end;
         text-align: center;
       }
@@ -314,7 +370,7 @@ footer {
         justify-self: flex-start;
         text-decoration: none;
         background: black;
-        padding: 2rem;
+        padding: 2.9rem;
         color: white;
         border: solid 1px white;
         text-align: center;
@@ -323,6 +379,7 @@ footer {
 
       .config_option-controller a:hover{
         background-color: darkgrey;
+        color:black;
         transition-duration: 300ms;
       }
 
