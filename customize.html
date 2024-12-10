@@ -26,27 +26,78 @@
             </ul>
           </nav>
     </header>
+      <style>
+        .customize_image {
+          padding: 10rem;
+          margin: 10rem;
+          align-items: center;
+          justify-content: center;
+          font-family: center;
+        }
 
+        p, h1, h2 {
+          color: white;
+          text-align: left;
+        }
+
+        li {
+          color: black;
+        }
+
+        .dropdown_size {
+        position: center;
+        right: 0;
+        width: fit-content;
+        }
+
+        ul li ul {
+        flex-direction: column;
+        gap: 0.1rem;
+        padding: 0.5rem;
+        background-color: grey;
+        visibility: hidden;
+        opacity: 0;
+        min-width: 0.2rem;
+        position: absolute;
+        transition: all 0.2s ease;
+        margin-top: 1rem;
+        right: 0;
+        display: none;
+        width: fit-content;
+      }
+
+      </style>
 
     
-    <article>
+    <article class="customize_image">
       <img src="merch image/T-shirts_trion_merch - Copy.png">
       <h1>Black Top Right</h1>
       <h2>$30</h2>
       <p>description:</p>
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi perspiciatis fugit expedita maxime voluptates non nemo accusamus aut quae recusandae iste provident nisi, saepe ullam voluptas maiores! Excepturi, animi debitis?</p>
-    </article>
       <section>
+        <ul>
+          <li class="dropdown_size"><h1>size</h1>
           <ul>
-            <li>size</li>
-            <li>s</li>
-            <li>ss</li>
+          <li>XS</li>
+          <li>S</li>
+          <li>M</li>
+          <li>L</li>
+          <li>XL</li>
+          <li>XXL</li>
           </ul>
-      </section>
+          </li>
+        </ul>
+    </section>
 
-      <section class="cart">
-        <a href="shopping_cart.html" style="color: white;">Add to Cart</a>
-      </section>
+    
+    <section class="cart">
+      <a href="shopping_cart.html" style="color: white;">Add to Cart</a>
+    </section>
+
+    </article>
+
+
       
       <style>
         .cart {
