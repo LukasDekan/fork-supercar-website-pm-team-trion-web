@@ -103,7 +103,52 @@ header marquee img{
 
       .text-container-apply-confirm{
         display: flex;
+        flex-direction: column;
+        padding: 20rem;
       }
+      .text-container-apply-confirm h1{
+        align-self: center;
+        font-size: xx-large;
+        color: white;
+      }
+      .text-container-apply-confirm a{
+        align-self: center;
+        text-decoration: none;
+        color: white;
+        font-size: x-large;
+      }
+      .text-container-apply-confirm a:hover{
+        background-color: darkgrey;
+        border-radius: 0.2rem;
+        color: black;
+        transition-duration: 200ms;
+      }
+
+      #config-options_confirm-option{
+        padding: 0.8rem;
+      }
+
+      .config_options #config-options_confirm-option{
+        background-color: grey;
+        color: white;
+      }
+      .config_options #config-options_confirm-option:hover{
+        background-color: white;
+        color: black;
+      }
+
+
+      
+
+      /* .config_option-controller{
+        display:flex;
+        flex-direction:row;
+        align-items: flex-end;
+        text-align: center;
+      } */
+
+      
+
 
 :root{
   background-image: linear-gradient(gray, black, gray);
@@ -393,8 +438,34 @@ footer {
         justify-content: flex-start;
       }
 
+      .config_options-logo{
+        display:flex;
+        flex-direction: column;
+        width: 20%;
+        align-self: flex-end;
+      }
 
+      .config_options-logo a{
+        justify-self: flex-start;
+        text-decoration: none;
+        background: black;
+        padding: 2.9rem;
+        color: white;
+        border: solid 1px white;
+        text-align: center;
+        font-size: medium;
+      }
 
+      .config_options-logo #config-options_confirm-option{
+        background-color: grey;
+        color: white;
+      }
+
+      .config_options-logo #config-options_confirm-option:hover{
+        background-color: white;
+        color: black;
+      }
+      
 
 
 
