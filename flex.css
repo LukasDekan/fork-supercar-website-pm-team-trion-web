@@ -411,6 +411,135 @@ footer {
         text-align: center;
       }
 
+      .config_option-controller-special{
+        display:flex;
+        flex-direction:row;
+        align-items:baseline;
+        text-align: center;
+      }
+
+      .config_options-special{
+        display:flex;
+        flex-direction: column;
+        width: 20%;
+        align-self: flex-end;
+      }
+
+      .config_options-special a{
+        justify-self: flex-start;
+        text-decoration: none;
+        background: black;
+        padding: 7.2rem;
+        color: white;
+        border: solid 1px white;
+        text-align: center;
+        font-size: large;
+      }
+
+      .config_options-special a:hover{
+        background-color: darkgrey;
+        color:black;
+        transition-duration: 300ms;
+      }
+
+      .config_options-special #config-options_confirm-option{
+        background-color: grey;
+        color: white;
+      }
+
+      .config_options-special #config-options_confirm-option:hover{
+        background-color: white;
+        color: black;
+      }
+
+      .config_options-special2{
+        display:flex;
+        flex-direction: column;
+        width: 20%;
+        align-self: flex-end;
+      }
+
+      .config_options-special2 a{
+        justify-self: flex-start;
+        text-decoration: none;
+        background: black;
+        padding: 8.2rem;
+        color: white;
+        border: solid 1px white;
+        text-align: center;
+        font-size: x-large;
+      }
+
+      .config_options-special2 a:hover{
+        background-color: darkgrey;
+        color:black;
+        transition-duration: 300ms;
+      }
+
+      .config_options-special2 #config-options_confirm-option{
+        background-color: grey;
+        color: white;
+      }
+
+      .config_options-special2 #config-options_confirm-option:hover{
+        background-color: white;
+        color: black;
+      }
+
+
+
+      .config_options-special3{
+        display:flex;
+        flex-direction: column;
+        width: 20%;
+        align-self: flex-end;
+      }
+
+      .config_options-special3 a{
+        justify-self: flex-start;
+        text-decoration: none;
+        background: black;
+        padding: 5rem;
+        color: white;
+        border: solid 1px white;
+        text-align: center;
+        font-size: x-large;
+      }
+
+      .config_options-special3 #config-options_confirm-option{
+        background-color: grey;
+        color: white;
+      }
+
+      .config_options-special3 a:hover{
+        background-color: darkgrey;
+        color:black;
+        transition-duration: 300ms;
+      }
+
+      .config_options-special3 #config-options_confirm-option:hover{
+        background-color: white;
+        color: black;
+      }
+
+      /* .config_options-logo{
+        display:flex;
+        flex-direction: column;
+        width: 20%;
+        align-self: flex-end;
+      } */
+
+      /* .config_options-logo a{
+        justify-self: flex-start;
+        text-decoration: none;
+        background: black;
+        padding: 2.9rem;
+        color: white;
+        border: solid 1px white;
+        text-align: center;
+        font-size: medium;
+      } */
+
       .config_options a{
         justify-self: flex-start;
         text-decoration: none;
@@ -524,6 +653,129 @@ footer {
         transition: 0.6s ease;
         border-radius: 0 3px 3px 0;
         user-select: none;
+      }
+
+      .config_options_widow{
+        display:flex;
+        flex-direction: column;
+        width: 20%;
+        align-self: flex-end;
+      }
+
+      .config_options_widow a{
+        justify-self: flex-start;
+        text-decoration: none;
+        background: black;
+        padding: 3.5rem;
+        color: white;
+        border: solid 1px white;
+        text-align: center;
+        font-size: medium;
+      }
+
+
+/* ----------HUBCAPS----------------- */
+      
+
+
+      .image-container_hubcap{
+        display: block;
+        justify-content: center;
+      }
+
+      .config_option-controller-hubcaps{
+        display:flex;
+        flex-direction:row;
+        align-items: flex-end;
+        text-align: center;
+      } 
+
+      .config-image_controller{
+        display: block;
+        justify-content: center;
+      }
+
+      .config_option-controller-hubcaps a{
+        justify-self: flex-start;
+        padding: 7rem; 
+        text-decoration: none;
+        background: black;
+        color: white;
+        border: solid 1px white;
+        text-align: center;
+        font-size: medium;
+      }
+
+      .config_options_widow2{
+        display:flex;
+        flex-direction: row;
+        width: 60%;
+        align-self: flex-end;
+      }
+
+      .config_options_widow2 a{
+        justify-self: flex-start;
+        padding: 7rem; 
+        text-decoration: none;
+        background: black;
+        color: white;
+        border: solid 1px white;
+        text-align: center;
+        font-size: medium;
+      }
+
+      .config_options_widow2 a:hover{
+        background-color: darkgrey;
+        color:black;
+        transition-duration: 300ms;
+      }
+
+      .config_options_widow2 #config-options_confirm-option{
+        background-color: grey;
+        color: white;
+      }
+
+      .config_options_widow2 #config-options_confirm-option:hover{
+        background-color: white;
+        color: black;
+      }
+/*-----------------HUBCAPS----------------- */
+
+
+      
+
+      .config_options-special4{
+        display:flex;
+        flex-direction: column;
+        width: 20%;
+        align-self: flex-end;
+      }
+
+      .config_options-special4 a{
+        justify-self: flex-start;
+        text-decoration: none;
+        background: black;
+        padding: 5rem;
+        color: white;
+        border: solid 1px white;
+        text-align: center;
+        font-size: x-large;
+      }
+
+      .config_options-special4 #config-options_confirm-option{
+        background-color: grey;
+        color: white;
+      }
+
+      .config_options-special4 a:hover{
+        background-color: darkgrey;
+        color:black;
+        transition-duration: 300ms;
+      }
+
+      .config_options-special4 #config-options_confirm-option:hover{
+        background-color: white;
+        color: black;
       }
 
 
