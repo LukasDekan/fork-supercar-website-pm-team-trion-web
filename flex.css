@@ -680,9 +680,11 @@ footer {
 
       .image-container_hubcap{
         display: block;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
       }
-
+   
       .config_option-controller-hubcaps{
         display:flex;
         flex-direction:row;
@@ -690,41 +692,36 @@ footer {
         text-align: center;
       } 
 
-      .config-image_controller{
-        display: block;
-        justify-content: center;
-      }
-
-      .config_options_widow2{
+      .config-options-widow{
         display:flex;
         flex-direction: row;
         width: 60%;
         align-self: flex-end;
       }
 
-      .config_options_widow2 a{
+      .config-options-widow a{
         justify-self: flex-start;
-        padding: 7rem; 
+        padding: 9rem; 
         text-decoration: none;
         background: black;
         color: white;
         border: solid 1px white;
         text-align: center;
-        font-size: medium;
+        font-size: x-large;
       }
 
-      .config_options_widow2 a:hover{
+      .config-options-widow a:hover{
         background-color: darkgrey;
         color:black;
         transition-duration: 300ms;
       }
 
-      .config_options_widow2 #config-options_confirm-option{
+      .config-options-widow #config-options_confirm-option{
         background-color: grey;
         color: white;
       }
 
-      .config_options_widow2 #config-options_confirm-option:hover{
+      .config-options-widow #config-options_confirm-option:hover{
         background-color: white;
         color: black;
       }
