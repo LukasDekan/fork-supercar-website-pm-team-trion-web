@@ -551,6 +551,25 @@ footer {
         font-size: medium;
       }
 
+      .config_options-new{
+        display:flex;
+        flex-direction: column;
+        width: 20%;
+        align-self: flex-end;
+      }
+
+      .config_options-new a{
+        justify-self: flex-start;
+        text-decoration: none;
+        background: black;
+        padding: 7.15rem;
+        color: white;
+        border: solid 1px white;
+        text-align: center;
+        font-size: medium;
+      }
+
+
       .config_option-controller a:hover{
         background-color: darkgrey;
         color:black;
@@ -562,9 +581,8 @@ footer {
       }
 
       .image_config_controller{
-        align-self: flex-start;
-        flex-wrap: wrap;
-        justify-content: flex-start;
+        display: block;
+        align-content: flex-end;
       }
 
       .config_options-logo{
