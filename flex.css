@@ -784,11 +784,6 @@ footer {
 
 
 
-.box_control{
-  position:relative;
-  height: 500px;
-}
-
 .mySlides {
   display: none;
 }
@@ -878,24 +873,26 @@ footer {
   width: 50%;
   height: 100%;
   padding:4rem;
-  display: flex;
   color:white;
-  border: solid 1px white;
   font-size: x-large;
-  left: 0;
-  bottom: 0;
-  background-image: linear-gradient(black, gray, black);
+  background: rgba(141, 141, 141, 0.3);
 
 }
 
-.image_box{
-  display:block;
-  position:absolute;        
-  width: 55%;
-  right: 0;
-  top:0;
-  justify-self: flex-start;
+.content_box-new{
+  z-index: 5;     
+  width: 50%;
+  height: 100%;
+  padding:4rem;
+  color:white;
+  font-size: x-large;
 }
+
+.content_box-new h1{
+  display: flex;
+  justify-content: center;
+}
+
 
 .image_border{
   height: 52.5%;
@@ -903,15 +900,34 @@ footer {
 }
 
 .box_control{
-  position:relative;
-  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.image_box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.quick-link{
+  color: white;
+}
+
+.quick-link:hover{
+  background-color: grey;
+  color:black
+}
+
+
 
 #merch-header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0;
+  margin: 1rem;
   position: relative;
 }
 
