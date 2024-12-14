@@ -180,7 +180,30 @@ header marquee img{
         color: white;
         font-size: x-large;
       }
+
+
       .models_text-box a:hover{
+        border-radius: 0.2rem;
+        color: black;
+        transition-duration: 20 0ms;
+      }
+
+      .models_text-box2{
+        display: block;
+        font-size: x-large;
+        background: rgb(88, 88, 88);
+        border-top: solid 1px white;
+        border-bottom: solid 1px white;
+        padding: 3rem;
+        width: 100%;
+      }
+
+      .models_text-box2 a{
+        color: white;
+        font-size: x-large;
+      }
+
+      .models_text-box2 a:hover{
         border-radius: 0.2rem;
         color: black;
         transition-duration: 20 0ms;
@@ -449,7 +472,15 @@ footer {
 
 
 
-
+      .nemesis_title-box{
+        display: block;
+        font-size: xx-large;
+        background: rgb(88, 88, 88);
+        border-top: solid 1px white;
+        border-bottom: solid 1px white;
+        padding: 10rem;
+        width: 100%;
+      }
 
       .config_image{
         width: 80%;
