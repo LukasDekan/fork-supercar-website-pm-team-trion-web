@@ -24,7 +24,12 @@ header marquee img{
       display: flex;
       justify-self: center;
       align-items: center;
-      width: 50%;
+      width: 20%;
+      margin-top: 5rem;
+      margin-bottom: 2rem;
+      background:white;
+      border-radius: 3rem;
+      max-height: 50vh;
     }
 
     
@@ -76,6 +81,8 @@ header marquee img{
         font-size: large;
         color: white;
       }
+
+
     
 
       .image-button{
