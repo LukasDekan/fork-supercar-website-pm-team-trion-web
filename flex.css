@@ -20,6 +20,13 @@ header marquee img{
       background-color: white;
     }
     
+    .icon{
+      display: flex;
+      justify-self: center;
+      align-items: center;
+      width: 50%;
+    }
+
     
     /* HERO IMAGE */
       .hero_image{
