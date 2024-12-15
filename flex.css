@@ -1167,25 +1167,3 @@ p, h1, h2, h3, h4 {
 
 
 
-
-/* 2xl */
-@media (max-width: 1536px) {
-  .config_options a{
-    max-width: 1280px;
-  }
-}
-
-/* xl */
-@media (max-width: 1280px) {
-
-  .config_options a{
-    max-width: 1024px;
-  }
-}
-
-/* lg */
-@media (max-width: 1024px) {
-  .config_options a{
-    max-width: 768px;
-  }
-}
