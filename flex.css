@@ -1046,7 +1046,7 @@ footer {
   z-index: 5;     
   width: 50%;
   height: 100%;
-  padding:4rem;
+  padding:4vw;
   color:white;
   font-size: x-large;
   background: rgba(141, 141, 141, 0.3);
@@ -1092,7 +1092,7 @@ footer {
 
 .quick-link:hover{
   background-color: grey;
-  color:black
+  color:black;
 }
 
 
@@ -1159,6 +1159,71 @@ p, h1, h2, h3, h4 {
   color: white;
 }
 
+
+/* 2xl */
+@media (max-width: 1536px) {
+  
+}
+
+/* xl */
+@media (max-width: 1280px) {
+
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  ul li ul li {
+    padding:0.18rem;
+  }
+  
+  .content_box {
+    padding: 3vw;
+  }
+}
+
+
+/* md */
+@media (max-width: 768px) {
+  ul li ul li {
+    font-size: 2rem;
+    padding:0.15rem;
+  }
+
+  .footer_buttons a{
+    font-size: x-large;
+  }
+  .content_box {
+    padding: 3vw;
+    font-size: larger;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  ul li ul li {
+    font-size: 2rem;
+    padding:0.12rem;
+  }
+
+  .footer_buttons a{
+    font-size: large;
+  }
+  .content_box {
+    padding: 3vw;
+    font-size: medium;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .content_box {
+    padding: 3vw;
+    font-size: small;
+  }
+  .footer_buttons a{
+    font-size: medium;
+  }
+}
 
 
 
