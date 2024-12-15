@@ -203,6 +203,7 @@ header marquee img{
         font-size: x-large;
       }
 
+
       .models_text-box2 a:hover{
         border-radius: 0.2rem;
         color: black;
@@ -316,6 +317,12 @@ li a {
 
 li:hover,
 li:focus-within {
+  background: rgb(182, 182, 182);
+  cursor: pointer;
+}
+
+
+li:focus {
   background: rgb(182, 182, 182);
   cursor: pointer;
 }
@@ -545,12 +552,24 @@ footer {
         transition-duration: 300ms;
       }
 
+      
+      .config_options-special a:focus{
+        background-color: darkgrey;
+        color:black;
+        transition-duration: 300ms;
+      }
+
       .config_options-special #config-options_confirm-option{
         background-color: grey;
         color: white;
       }
 
       .config_options-special #config-options_confirm-option:hover{
+        background-color: white;
+        color: black;
+      }
+
+      .config_options-special #config-options_confirm-option:focus{
         background-color: white;
         color: black;
       }
@@ -579,12 +598,18 @@ footer {
         transition-duration: 300ms;
       }
 
+      .config_options-special2 a:focus{
+        background-color: darkgrey;
+        color:black;
+        transition-duration: 300ms;
+      }
+
       .config_options-special2 #config-options_confirm-option{
         background-color: grey;
         color: white;
       }
 
-      .config_options-special2 #config-options_confirm-option:hover{
+      .config_options-special2 #config-options_confirm-option:focus{
         background-color: white;
         color: black;
       }
@@ -620,11 +645,21 @@ footer {
         transition-duration: 300ms;
       }
 
+      .config_options-special3 a:focus{
+        background-color: darkgrey;
+        color:black;
+        transition-duration: 300ms;
+      }
+
       .config_options-special3 #config-options_confirm-option:hover{
         background-color: white;
         color: black;
       }
 
+      .config_options-special3 #config-options_confirm-option:focus{
+        background-color: white;
+        color: black;
+      }
       /* .config_options-logo{
         display:flex;
         flex-direction: column;
@@ -653,6 +688,31 @@ footer {
         text-align: center;
         font-size: medium;
       }
+
+      .config_options a:focus{
+        background-color: darkgrey;
+        color:black;
+        transition-duration: 300ms;
+      }
+
+      .next_prev-controller a:focus{
+        background-color: darkgrey;
+        color:black;
+        transition-duration: 300ms;
+      }
+
+      .config_options_widow a:focus{
+        background-color: darkgrey;
+        color:black;
+        transition-duration: 300ms;
+      }
+
+      .config-options-widow a:focus{
+        background-color: darkgrey;
+        color:black;
+        transition-duration: 300ms;
+      }
+      
 
       .config_options-new{
         display:flex;
@@ -845,6 +905,17 @@ footer {
       .config-options-widow #config-options_confirm-option:hover{
         background-color: white;
         color: black;
+      }
+
+      .config-options-widow #config-options_confirm-option:focus{
+        background-color: white;
+        color: black;
+      }
+
+      .config_options-new a:focus{
+        background-color: darkgrey;
+        color:black;
+        transition-duration: 300ms;
       }
 /*-----------------HUBCAPS----------------- */
 
@@ -1086,4 +1157,38 @@ footer {
 
 p, h1, h2, h3, h4 {
   color: white;
+}
+
+a:focus{
+  
+}
+
+
+
+
+
+
+
+
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .config_options a{
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+
+  .config_options a{
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .config_options a{
+    max-width: 768px;
+  }
 }
