@@ -3,29 +3,174 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flex.css">
     <title>Document</title>
+    <style>
+      /* Account info section */
+      h1 {
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+      h2 {
+        text-align: center;
+      }
+
+      .account-info h1 {
+          font-size: 32px;
+          margin-bottom: 10px;
+      }
+      
+      .account-info p {
+          font-size: 18px;
+          margin-bottom: 20px;
+      }
+      
+      .account-details {
+          display: flex;
+          justify-content: center;
+          gap: 30px;
+      }
+      
+      .account-detail {
+          background-color: #fff;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          width: 30%;
+      }
+      
+      .account-detail h3 {
+          font-size: 18px;
+          margin-bottom: 10px;
+          color: #555;
+      }
+      
+      .account-detail p {
+          font-size: 16px;
+          color: #777;
+      }
+      
+      /* Car models section */
+      .car-models h2 {
+          font-size: 28px;
+          margin-bottom: 20px;
+      }
+      
+      .models-gallery {
+          display: flex;
+          gap: 20px;
+          justify-content: space-between;
+      }
+      
+      .model-card {
+          background-color: #fff;
+          border-radius: 8px;
+          overflow: hidden;
+          width: 32%;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      
+      .model-card img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+      }
+      
+      .model-card h3 {
+          font-size: 20px;
+          margin: 15px 0;
+          padding: 0 15px;
+          color: #333;
+      }
+      
+      .model-card p {
+          font-size: 14px;
+          color: #777;
+          padding: 0 15px 15px;
+      }
+      
+      .model-card button {
+          background-color: #f39c12;
+          color: #fff;
+          padding: 10px;
+          border: none;
+          width: 100%;
+          border-radius: 0 0 8px 8px;
+          cursor: pointer;
+          font-size: 16px;
+          transition: background-color 0.3s;
+      }
+      
+      .model-card button:hover {
+          background-color: #e67e22;
+      }
+            </style>
 </head>
 <body>
-    <header>
-        <nav role="navigation">
-            <ul>
-              <li><a href="index.html"><img src="trion_homepage_images/Trion_logo.png" class="home_button" width="55rem" alt="aeradsf"></a></li>
-                <li><a><img src="/trion_homepage_images/menu.png" class="hamburger" width="60rem" alt="r"></a>
-                  <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="models.html">Models</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="merch.html">Merch</a></li>
-                    <li><a href="account.html">Account</a></li>
-                    <li><a href="models-configurator.html">Configurator</a></li>
-                  </ul>
-              </li>
-            </ul>
-          </nav>
-
-
-          
+  <header>
+    <nav role="navigation">
+      <ul>
+        <li><a href="index.html"><img src="trion_homepage_images/Trion_logo.png" class="home_button" width="55rem" alt="aeradsf"></a></li>
+        <li class="dropdown"><a><img src="/trion_homepage_images/menu.png" class="hamburger" width="60rem" alt="r"></a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="models.html">Models</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="merch.html">Merch</a></li>
+            <li><a href="account_home.html">Account</a></li>
+            <li><a href="models-configurator.html">Configurator</a></li>
+            <li><a href="shopping_cart.html">Shopping Cart</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+            <section class="account-info">
+                <h1>Welcome, John Doe!</h1>
+                <p>Your Trion Super Car Account</p>
+                <div class="account-details">
+                    <div class="account-detail">
+                        <h3>Account ID</h3>
+                        <p>#123456789</p>
+                    </div>
+                    <div class="account-detail">
+                        <h3>Email</h3>
+                        <p>johndoe@email.com</p>
+                    </div>
+                    <div class="account-detail">
+                        <h3>Membership</h3>
+                        <p>Trion Premium Member</p>
+                    </div>
+                </div>
+            </section>
+            <section class="car-models">
+              <h2>Our Exclusive Models</h2>
+              <div class="models-gallery">
+                  <div class="model-card">
+                      <img src="supercar1.jpg" alt="Trion Model 1">
+                      <h3>Trion Hyperion</h3>
+                      <p>The next-gen supercar with extreme performance and sleek design.</p>
+                      <button>View Details</button>
+                  </div>
+                  <div class="model-card">
+                      <img src="supercar2.jpg" alt="Trion Model 2">
+                      <h3>Trion Nemesis</h3>
+                      <p>Designed for the track, but ready for the streets.</p>
+                      <button>View Details</button>
+                  </div>
+                  <div class="model-card">
+                      <img src="supercar3.jpg" alt="Trion Model 3">
+                      <h3>Black Widow</h3>
+                      <p>Built for the bold, this car delivers unmatched power.</p>
+                      <button>View Details</button>
+                  </div>
+              </div>
+          </section>
+      </main>    
     </header>
+          
     <footer>
       <section class="footer-title">
         <p>TRION</p>
