@@ -93,6 +93,12 @@ header marquee img{
         text-align: left;
         font-size: x-large;
         color: white;
+      } 
+
+      .about-us_image{
+        display:flex;
+        justify-self: center;
+        width: 60%;
       }
 
       .config_text-container h1{
@@ -270,7 +276,7 @@ nav {
   justify-content: space-between;
   background-color: black;
   width: 100%;
-  height: 10%;
+  height: 95%;
   text-align: center;        
 }
 
@@ -1183,6 +1189,9 @@ p, h1, h2, h3, h4 {
   .content_box {
     padding: 3vw;
   }
+  .nemesis_title-box{
+    padding: 10rem;
+  }
 }
 
 
@@ -1200,14 +1209,17 @@ p, h1, h2, h3, h4 {
     padding: 3vw;
     font-size: larger;
   }
+  .nemesis_title-box{
+    padding: 8rem;
+  }
 }
 
 /* sm */
 @media (max-width: 640px) {
   ul li ul li {
-    font-size: 2rem;
-    padding:0.12rem;
-  }
+    font-size: 1.3rem;
+    padding: 0.4rem;
+}
 
   .footer_buttons a{
     font-size: large;
@@ -1216,10 +1228,32 @@ p, h1, h2, h3, h4 {
     padding: 3vw;
     font-size: medium;
   }
+  .footer-title {
+    font-size: 48px;
+  }
+  .footer_content {
+    font-size: small;
+  }
+
+  .account-detail p {
+    font-size: 11px;
+  }
+
+  .models_text-box-p, .models_text-box2 p{
+    font-size: x-large;
+  }
+  .nemesis_title-box h1{
+    font-size: x-large;
+  }
+  .nemesis_title-box{
+    padding: 6rem;
+  }
+  
 }
 
 /* xs */
 @media (max-width: 475px) {
+
   .content_box {
     padding: 3vw;
     font-size: small;
@@ -1227,7 +1261,26 @@ p, h1, h2, h3, h4 {
   .footer_buttons a{
     font-size: medium;
   }
+
+  .footer_content {
+    font-size: x-small;
+  }
+
+  .account-detail p {
+    font-size: 12px;
+  }
+
+
+
+  .nemesis_title-box{
+    padding: 4rem;
+  }
+
+  ul li ul li {
+    font-size: 1rem;
+    padding: 0.7rem;
 }
+} 
 
 
 

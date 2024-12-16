@@ -29,7 +29,7 @@
     <div class="shopping-Shopping Cart">
       <!-- Title -->
       <div class="title">
-        Shopping Bag
+        Shopping Cart
       </div>
      
       <!-- Product #1 -->
@@ -44,9 +44,9 @@
         </div>
      
         <div class="description">
-          <span>Common Projects</span>
-          <span>Bball High</span>
-          <span>White</span>
+          <span style="color:white; font-size:x-large;">T-shirt</span>
+          <span style="color:white; font-size:medium;">Big Trion Logo</span>
+          <span style="color:white; font-size:medium;">Black</span>
         </div>
      
         <div class="quantity">
@@ -59,7 +59,7 @@
           </button>
         </div>
      
-        <div class="total-price">$549</div>
+        <div class="total-price">$30</div>
       </div>
      
       <!-- Product #2 -->
@@ -74,9 +74,9 @@
         </div>
      
         <div class="description">
-          <span>Maison Margiela</span>
-          <span>Future Sneakers</span>
-          <span>White</span>
+          <span style="color:white; font-size:x-large;">T-shirt</span>
+          <span style="color:white; font-size:medium;">Big Trion Logo</span>
+          <span style="color:white; font-size:medium;">Grey</span>
         </div>
      
         <div class="quantity">
@@ -89,7 +89,7 @@
           </button>
         </div>
      
-        <div class="total-price">$870</div>
+        <div class="total-price">$30</div>
       </div>
      
       <!-- Product #3 -->
@@ -104,26 +104,26 @@
         </div>
      
         <div class="description">
-          <span>Our Legacy</span>
-          <span>Brushed Scarf</span>
-          <span>Brown</span>
+          <span style="color:white; font-size:x-large;">T-shirt</span>
+          <span style="color:white; font-size:medium;">Big Trion Logo</span>
+          <span style="color:white; font-size:medium;">White</span>
         </div>
      
         <div class="quantity">
           <button class="plus-btn" type="button" name="button">
-            <img src="merch image/plus-removebg-preview.png"  width="10rem"   alt="" />
+            <img src="merch image/plus-removebg-preview.png"  width="10rem"   alt="asdfasdf" />
           </button>
           <input type="text" name="name" value="1">
           <button class="minus-btn" type="button" name="button">
-            <img src="merch image/minus-removebg-preview.png" width="10rem"  alt="" />
+            <img src="merch image/minus-removebg-preview.png" width="10rem"  alt="asdf" />
           </button>
         </div>
      
-        <div class="total-price">$349</div>
+        <div class="total-price">$30</div>
       </div>
     </div>
-    <section class="check-out">
-      <a href="checkout.html" style="color: white;">Add to Cart</a>
+    <section style="display: flex; justify-self: center;" class="footer_buttons">
+      <a href="checkout.html" style="color: white; text-align: center; width: 100%; font-size: x-large;">Continue to Checkout</a>
     </section>
 
     </article>
@@ -169,14 +169,14 @@
     height: 60px;
     border-bottom: 1px solid #E1E8EE;
     padding: 20px 30px;
-    color: #5E6977;
+    color: white;
     font-size: 18px;
     font-weight: 400;
   }
    
   .item {
     padding: 20px 30px;
-    height: 120px;
+    height: 250px;
     display: flex;
   }
    
@@ -282,9 +282,35 @@
     width: 83px;
     padding-top: 27px;
     text-align: center;
-    font-size: 16px;
-    color: #43484D;
+    font-size: xx-large;
+    color: white;
     font-weight: 300;
+  }
+
+  @media (max-width: 1024px) {
+    .shopping-Shopping Cart {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+    .item {
+      height: auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .image img {
+      width: 50%;
+    }
+    .image,
+    .quantity,
+    .description {
+      width: 100%;
+      text-align: center;
+      margin: 6px 0;
+    }
+    .buttons {
+      margin-right: 20px;
+    }
   }
 
   @media (max-width: 800px) {
@@ -314,25 +340,26 @@
   }
       </style>
 
-    <footer>
-      <section class="footer-title">
-        <p>TRION</p>
-      </section>
-      <section class="footer_content">
-        <p>CONTACT</p>
-        <p>INSERT EMAIL HERE:</p>
-        <p>________________________</p>
-        <p>Call us: #(123)456-7890</p>
-      </section>
-      <article class="footer_buttons">
-        <a href="#">ACCESSIBILITY</a>
-        <a href="#">MODELS</a>
-        <a href="#">MERCH</a>
-        <a href="#">ABOUT US</a>
-      </article></footer>
-  <article class="footer_extra">
-      <p>Created by Lukas and Jack; November 2024</p>
-  </article>
+<footer>
+  <section class="footer-title">
+    <p>TRION</p>
+  </section>
+  <section class="footer_content">
+    <p>CONTACT</p>
+    <p>INSERT EMAIL HERE:</p>
+    <p>________________________</p>
+    <p>Call us: #(123)456-7890</p>
+  </section>
+   <section class="footer_buttons">     
+    <a href="models.html">MODELS</a>
+    <a href="about-us.html">ABOUT US</a> 
+    <a href="merch.html">MERCH </a>
+    <a href="account.html">ACCOUNT</a>                               
+    <a href="models-configurator.html">CONFIGURATOR</a>
+</footer>
+<article class="footer_extra">
+<p>Created by Lukas and Jack; November 2024</p>
+</article>
 
   <script>
     $('.like-btn').on('click', function() {

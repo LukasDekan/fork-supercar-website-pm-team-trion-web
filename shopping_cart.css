@@ -34,7 +34,7 @@
    
   .item {
     padding: 20px 30px;
-    height: 120px;
+    height: 250px;
     display: flex;
   }
    
@@ -117,8 +117,8 @@
   }
    
   button[class*=btn] {
-    width: 30px;
-    height: 30px;
+    width: 4rem;
+    height: 1rem;
     background-color: #E1E8EE;
     border-radius: 6px;
     border: none;
@@ -140,10 +140,31 @@
     width: 83px;
     padding-top: 27px;
     text-align: center;
-    font-size: 16px;
+    font-size: xx-large;
     color: #43484D;
     font-weight: 300;
   }
+
+ 
+ 
+ 
+  
+  @media screen {
+    
+  }
+  .item {
+    padding: 20px 30px;
+    height: 120px;
+    display: flex;
+  }
+
+  /* lg */
+@media (max-width: 934px) {
+  .item {
+    padding: 20px 30px;
+    height: 250px;
+  }
+}
 
   @media (max-width: 800px) {
     .shopping-Shopping Cart {
@@ -169,6 +190,10 @@
     .buttons {
       margin-right: 20px;
     }
+
+    .quantity input {
+    width: 32px;
+  }
   }
 
   
