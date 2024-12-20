@@ -1,120 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="flex.css">
-    <title>Document</title>
-    <style>
-      /* Account info section */
-      h1 {
-        text-align: center;
-      }
-      /* p {
-        text-align: center;
-      } */
-      h2 {
-        text-align: center;
-      }
-       
-      
-
-      .account-info h1 {
-          font-size: 32px;
-          margin-bottom: 10px;
-      }
-      
-      .account-info p {
-          font-size: 18px;
-          margin-bottom: 20px;
-      }
-      
-      .account-details {
-          display: flex;
-          justify-content: center;
-          gap: 30px;
-      }
-      
-      .account-detail {
-          background-color: #fff;
-          padding: 20px;
-          border-radius: 8px;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-          width: 30%;
-      }
-      
-      .account-detail h3 {
-          font-size: 18px;
-          margin-bottom: 10px;
-          color: #555;
-      }
-      
-      .account-detail p {
-          font-size: 16px;
-          color: #777;
-      }
-      
-      /* Car models section */
-      .car-models h2 {
-          font-size: 28px;
-          margin-bottom: 20px;
-      }
-      
-      .models-gallery {
-          display: flex;
-          gap: 20px;
-          justify-content: space-between;
-      }
-      
-      .model-card {
-          background-color: #fff;
-          border-radius: 8px;
-          overflow: hidden;
-          width: 32%;
-          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      }
-      
-      .model-card img {
-          width: 100%;
-          height: auto;
-          object-fit: cover;
-      }
-      
-      .model-card h3 {
-          font-size: 20px;
-          margin: 15px 0;
-          padding: 0 15px;
-          color: #333;
-      }
-      
-      .model-card p {
-          font-size: 14px;
-          color: #777;
-          padding: 0 15px 15px;
-      }
-      
-      .model-card button {
-          background-color: #f39c12;
-          color: #fff;
-          padding: 10px;
-          border: none;
-          width: 100%;
-          border-radius: 0 0 8px 8px;
-          cursor: pointer;
-          font-size: 16px;
-          transition: background-color 0.3s;
-      }
-      
-      .model-card button:hover {
-          background-color: #e67e22;
-      }
-            </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="flex.css">
+  <title>Trion Super Car - Account</title>
 </head>
 <body>
   <header>
     <nav role="navigation">
       <ul>
-        <li><a href="index.html"><img src="trion_homepage_images/Trion_logo.png" class="home_button" width="55rem" alt="aeradsf"></a></li>
+        <li><a href="index.html"><img src="trion_homepage_images/Trion_logo.png" class="home_button" width="70rem" alt="aeradsf"></a></li>       
         <li class="dropdown"><a><img src="/trion_homepage_images/menu.png" class="hamburger" width="60rem" alt="r"></a>
           <ul>
             <li><a href="index.html">Home</a></li>
@@ -129,66 +25,148 @@
       </ul>
     </nav>
   </header>
-            <section class="account-info">
-                <h1>Welcome, John Doe!</h1>
-                <p>Your Trion Super Car Account</p>
-                <div class="account-details">
-                    <div class="account-detail">
-                        <h3>Account ID</h3>
-                        <p>#123456789</p>
-                    </div>
-                    <div class="account-detail">
-                        <h3>Email</h3>
-                        <p>johndoe@email.com</p>
-                    </div>
-                    <div class="account-detail">
-                        <h3>Membership</h3>
-                        <p>Trion Premium Member</p>
-                    </div>
-                </div>
-            </section>
-            <section class="car-models">
-              <h2>Account Settings</h2>
-              <div class="models-gallery">
-                  <div class="model-card">
-                      <h3>Account Settings</h3>
-                      <p>The next-gen supercar with extreme performance and sleek design.</p>
-                      <button>View Details</button>
-                  </div>
-                  <div class="model-card">
-                      <h3>Account Purchase</h3>
-                      <p>Designed for the track, but ready for the streets.</p>
-                      <button>View Details</button>
-                  </div>
-                  <div class="model-card">
-                      <h3>Account Virtual Concienge</h3>
-                      <p>Built for the bold, this car delivers unmatched power.</p>
-                      <button>View Details</button>
-                  </div>
-              </div>
-          </section>
-      </main>    
-    </header>
-          
-    <footer>
-        <section class="footer-title">
-          <p>TRION</p>
-        </section>
-        <section class="footer_content">
-          <p>CONTACT</p>
-          <p>INSERT EMAIL HERE:</p>
-          <p>________________________</p>
-          <p>Call us: #(123)456-7890</p>
-        </section>
-         <section class="footer_buttons">     
-          <a href="models.html">MODELS</a>
-          <a href="about-us.html">ABOUT US</a> 
-          <a href="merch.html">MERCH </a>
-          <a href="account_home.html">ACCOUNT</a>                                                             
-          <a href="models-configurator.html">CONFIGURATOR</a>
-    </footer>
-    <article class="footer_extra">
-      <p>Created by Lukas and Jack; November 2024</p>
-    </article>
+
+  <!-- Account Page Content -->
+  <section class="account-info">
+    <h1>Welcome, John Doe!</h1>
+    <p>Your Trion Super Car account is ready to go.</p>
+
+    <div class="account-details">
+      <div class="account-detail">
+        <h3>Account ID</h3>
+        <p>#123456789</p>
+      </div>
+      <div class="account-detail">
+        <h3>Email</h3>
+        <p>johndoe@email.com</p>
+      </div>
+      <div class="account-detail">
+        <h3>Membership Level</h3>
+        <p>Trion Premium Member</p>
+      </div>
+    </div>
+
+    <div class="account-actions">
+      <h2>Account Management</h2>
+      <a href="models-configurator.html" class="cta-button">Go to Configurator</a>
+      <a href="account_config_history.html" class="cta-button">View Saved Configurations</a>
+      <a href="edit-account.html" class="cta-button">Edit Account Settings</a>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <section class="footer-title">
+      <p>TRION</p>
+    </section>
+    <section class="footer_content">
+      <p>CONTACT</p>
+      <p>INSERT EMAIL HERE:</p>
+      <p>________________________</p>
+      <p>Call us: #(123)456-7890</p>
+    </section>
+     <section class="footer_buttons">     
+      <a href="models.html">MODELS</a>
+      <a href="about-us.html">ABOUT US</a> <a href="merch.html">MERCH </a>
+      <a href="account_home.html">ACCOUNT</a>                                                             
+      <a href="models-configurator.html">CONFIGURATOR</a>
+  </footer>
+  <article class="footer_extra">
+    <p>Created by Lukas and Jack; November 2024</p>
+  </article>
+
+  <style>
+    footer{
+       margin-top: auto;
+    }
+
+    body{
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    nav{
+      height: 42%;
+    }
+</style>
+  
+  <style>
+    .home_button {
+      width: 55px;
+    }
+
+    .hamburger-link img {
+      width: 60px;
+    }
+
+    /* Account Page */
+    .account-info {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .account-info h1 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .account-info p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .account-details {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+
+    .account-detail {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 30%;
+    }
+
+    .account-detail h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #555;
+    }
+
+    .account-detail p {
+      font-size: 16px;
+      color: #777;
+    }
+
+    .account-actions {
+      margin-top: 40px;
+    }
+
+    .account-actions h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      background-color: #f39c12;
+      color: #fff;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 10px;
+      font-size: 16px;
+      display: inline-block;
+    }
+
+    .cta-button:hover {
+      background-color: #e67e22;
+    }
+
+  </style>
+
+
 </body>
 </html>

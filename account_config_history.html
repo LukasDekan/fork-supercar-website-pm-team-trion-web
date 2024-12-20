@@ -27,32 +27,10 @@
   </header>
 
   <!-- Account Page Content -->
-  <section class="account-info">
-    <h1>Welcome, John Doe!</h1>
-    <p>Your Trion Super Car account is ready to go.</p>
-
-    <div class="account-details">
-      <div class="account-detail">
-        <h3>Account ID</h3>
-        <p>#123456789</p>
-      </div>
-      <div class="account-detail">
-        <h3>Email</h3>
-        <p>johndoe@email.com</p>
-      </div>
-      <div class="account-detail">
-        <h3>Membership Level</h3>
-        <p>Trion Premium Member</p>
-      </div>
-    </div>
-
-    <div class="account-actions">
-      <h2>Account Management</h2>
-      <a href="models-configurator.html" class="cta-button">Go to Configurator</a>
-      <a href="ahis.html" class="cta-button">View Saved Configurations</a>
-      <a href="edit-account.html" class="cta-button">Edit Account Settings</a>
-    </div>
-  </section>
+  <article class="text-container-apply-confirm">
+    <h1>You do not have any saved configurations.</h1>
+    <a href="config-nemesis.html">OK</a>
+  </article>
 
   <!-- Footer Section -->
   <footer>
@@ -75,9 +53,21 @@
     <p>Created by Lukas and Jack; November 2024</p>
   </article>
 
-  <article class="footer-extra">
-    <p>Created by Lukas and Jack; November 2024</p>
-  </article>
+
+
+
+
+  <style>
+    footer{
+       margin-top: auto;
+    }
+
+    body{
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+  </style>
 
   <style>
     .home_button {
@@ -153,6 +143,7 @@
     .cta-button:hover {
       background-color: #e67e22;
     }
+    
 
   </style>
 

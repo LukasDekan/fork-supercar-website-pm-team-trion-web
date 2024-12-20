@@ -1296,6 +1296,10 @@ p, h1, h2, h3, h4 {
   .text-container-apply-confirm {
     padding: 13rem;
   }
+
+  nav{
+    height: 40%;
+  }
 }
 
 
@@ -1358,6 +1362,14 @@ p, h1, h2, h3, h4 {
     .text-container-apply-confirm {
       padding: 10rem;
     }
+    .text-container-apply-confirm {
+      padding: 5rem;
+      margin-bottom: 13rem;
+      }
+      
+      nav{
+        height: 25%;
+      }
 }
 
 /* sm */
@@ -1444,6 +1456,22 @@ width: 100%;
 .text-container-apply-confirm {
   padding: 9rem;
 }
+.text-container-apply-confirm {
+  padding: 9rem;
+}
+.text-container-apply-confirm {
+  padding: 5rem;
+  margin-bottom: 13rem;
+  }
+  
+  .text-container-apply-confirm {
+    padding: 5rem;
+    margin-bottom: 13rem;
+    }
+    
+    nav{
+      height: 18%;
+    }
 }
 
 /* @media (max-width: 511px){
@@ -1536,16 +1564,24 @@ width: 100%;
 .text-container-apply-confirm {
   padding: 9rem;
 }
+.text-container-apply-confirm {
+  padding: 5rem;
+  margin-bottom: 13rem;
+  }
+  
+  nav{
+    height: 18%;
+  }
 }
 
 /* med xs */
 @media (max-width: 425px) {
   .text-container-apply-confirm h1{
-    font-size: small;
+    font-size: large;
   }
   
   .text-container-apply-confirm a {
-    font-size: x-small;
+    font-size: medium;
   }
 }
 
@@ -1618,10 +1654,11 @@ footer{
 
 .text-container-apply-confirm {
 padding: 5rem;
+margin-bottom: 13rem;
 }
 
 nav{
-  height: 52%;
+  height: 18%;
 }
 
   .footer_buttons a {
@@ -1635,6 +1672,8 @@ nav{
   .merch-item > .merch-image {
     width: 40%;
   }
+
+  
 }
 
 
