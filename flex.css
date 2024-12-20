@@ -1555,9 +1555,6 @@ width: 100%;
     padding: 2vw;
     font-size: x-small;
   }
-  .footer_buttons a{
-    font-size: xx-small;
-  }
 
   .footer_content {
     font-size: xx-small;
@@ -1627,6 +1624,17 @@ nav{
   height: 52%;
 }
 
+  .footer_buttons a {
+      font-size: xx-small;
+  }
+
+  .merch-item > .merch-description{
+    font-size: x-small;
+  }
+  
+  .merch-item > .merch-image {
+    width: 40%;
+  }
 }
 
 
