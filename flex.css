@@ -91,7 +91,7 @@ header marquee img{
         display: flex;
         justify-self: center;
         text-align: left;
-        font-size: x-large;
+        font-size: xx-large;
         color: white;
       } 
 
@@ -120,7 +120,7 @@ header marquee img{
         align-self: center;
         justify-self: center;
         text-align: left;
-        font-size: large;
+        font-size: x-large;
         color: white;
       }
 
@@ -438,7 +438,7 @@ ul li ul:focus {
 
 ul li ul li {
   clear: both;
-  font-size: 1.25rem;
+  font-size: 2.25rem;
   /* display:flex; */
   /* justify-content: center; */
   /* justify-self: center; */
@@ -751,7 +751,7 @@ footer {
         color: white;
         border: solid 1px white;
         text-align: center;
-        font-size: medium;
+        font-size: xx-large;
       }
 
       .config_options a:focus{
@@ -916,7 +916,7 @@ footer {
         color: white;
         border: solid 1px white;
         text-align: center;
-        font-size: medium;
+        font-size: large;
       }
 
 
@@ -1125,7 +1125,7 @@ footer {
   height: 100%;
   padding:4vw;
   color:white;
-  font-size: x-large;
+  font-size: xx-large;
   background: rgba(141, 141, 141, 0.3);
 
 }
@@ -1136,7 +1136,7 @@ footer {
   height: 100%;
   padding:4rem;
   color:white;
-  font-size: x-large;
+  font-size: xx-large;
 }
 
 .content_box-new h1{
@@ -1300,8 +1300,8 @@ p, h1, h2, h3, h4 {
 
   .config_options a {
     padding: 1.35rem;
-    font-size:12px;
-    } 
+    font-size: large
+  } 
  
   .hubcap-image{
     width: 100%;
@@ -1892,7 +1892,7 @@ width: 100%;
   }
 
   .footer_extra p{
-    font-size: small;
+    font-size: x-large;
   }
 
 
