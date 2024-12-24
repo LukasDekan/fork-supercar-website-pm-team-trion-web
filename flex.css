@@ -892,7 +892,7 @@ footer {
       .config_option-controller-hubcaps{
         display:flex;
         flex-direction:row;
-        align-items: flex-end;
+        align-items: center;
         text-align: center;
       } 
 
@@ -904,8 +904,7 @@ footer {
       }
 
       .config-options-widow a{
-        justify-self: flex-start;
-        padding: 9rem; 
+        padding: 4rem; 
         text-decoration: none;
         background: black;
         color: white;
