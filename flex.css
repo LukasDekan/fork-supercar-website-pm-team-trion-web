@@ -754,6 +754,24 @@ footer {
         font-size: xx-large;
       }
 
+      .config_options-spoiler{
+        display:flex;
+        flex-direction: column;
+        width: 20%;
+        align-self: flex-end;
+      }
+
+      .config_options-spoiler a{
+        justify-self: flex-start;
+        text-decoration: none;
+        background: black;
+        padding: 10.6rem;
+        color: white;
+        border: solid 1px white;
+        text-align: center;
+        font-size: xx-large;
+      }
+
       .config_options a:focus{
         background-color: darkgrey;
         color:black;
@@ -1268,6 +1286,11 @@ p, h1, h2, h3, h4 {
   .config_options_widow a{
     padding: 3.5vw;
   }
+
+  .config_options-spoiler a{
+    padding: 6rem;
+    font-size: medium;
+  }
 }
 /* 2xl */
 @media (max-width: 1536px) {
@@ -1284,6 +1307,8 @@ p, h1, h2, h3, h4 {
       padding: 5vw;
     }
 
+    
+
     /* .config_options_widow{
       padding: 5vw;
     } */
@@ -1292,6 +1317,15 @@ p, h1, h2, h3, h4 {
       padding: 3.4vw;
     }
 
+    .config_options-spoiler a{
+      padding: 6rem;
+      font-size: small;
+    }
+
+    .config_options-spoiler a{
+      padding: 5.5rem;
+      font-size: medium;
+    }
     
 }
 
@@ -1356,6 +1390,11 @@ p, h1, h2, h3, h4 {
   }
   nav{
     height: 50%;
+  }
+
+  .config_options-spoiler a{
+    padding: 5rem;
+    font-size: small;
   }
 }
 
@@ -1446,6 +1485,11 @@ p, h1, h2, h3, h4 {
 
   .image-container_hubcap_widow{
     width: 25%;
+  }
+
+  .config_options-spoiler a{
+    padding: 5rem;
+    font-size: small;
   }
 }
 
@@ -1545,6 +1589,11 @@ p, h1, h2, h3, h4 {
     
       .image-container_hubcap_widow{
         width: 25%;
+      }
+
+      .config_options-spoiler a{
+        padding: 3rem;
+        font-size: small;
       }
 }
 
@@ -1677,7 +1726,7 @@ width: 100%;
       width: 25%;
     }
     footer{
-      margin-top: auto;
+      margin-top: 20vh;
    }
 
    body{
@@ -1685,6 +1734,11 @@ width: 100%;
        display: grid;
        grid-template-rows: 1fr auto;
    }  
+
+   .config_options-spoiler a{
+    padding: 3rem;
+    font-size: x-small;
+  }
 }
 
 /* @media (max-width: 511px){
@@ -1814,7 +1868,7 @@ width: 100%;
     width: 35%;
   }
   footer{
-    margin-top: 25vh;
+    margin-top: 20vh;
  }
 
  body{
@@ -1822,6 +1876,11 @@ width: 100%;
      display: grid;
      grid-template-rows: 1fr auto;
  }  
+
+ .config_options-spoiler a{
+  padding: 2rem;
+  font-size: x-small;
+}
 }
 
 /* med xs */
@@ -1862,7 +1921,7 @@ width: 100%;
     width: 25%;
   }
   footer{
-    margin-top: auto;
+    margin-top: 20vh;
  }
 
  body{
@@ -1870,6 +1929,11 @@ width: 100%;
      display: grid;
      grid-template-rows: 1fr auto;
  }  
+
+ .config_options-spoiler a{
+  padding: 2rem;
+  font-size: x-small;
+}
 }
 
 /* xxs */
@@ -1996,14 +2060,19 @@ nav{
     width: 17rem;
   }
   footer{
-    margin-top: auto;
+    margin-top: 20vh;
  }
 
  body{
      min-height: 100vh;
      display: grid;
      grid-template-rows: 1fr auto;
- } 
+ }  
+
+ .config_options-spoiler a{
+  padding: 2rem;
+  font-size: x-small;
+} 
 
   
 }
