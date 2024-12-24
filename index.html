@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="flex.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="flex.css">
+  <title>Document</title>
 </head>
+
 <body>
 
   <header>
     <nav role="navigation">
       <ul>
-        <li><a href="index.html"><img src="trion_homepage_images/Trion_logo.png" class="home_button" width="55rem" alt="aeradsf"></a></li>        <li class="dropdown"><a><img src="/trion_homepage_images/menu.png" class="hamburger" width="60rem" alt="r"></a>
+        <li><a href="index.html"><img src="trion_homepage_images/Trion_logo.png" class="home_button" width="55rem"
+              alt="aeradsf"></a></li>
+        <li class="dropdown"><a href=""><img src="/trion_homepage_images/menu.png" class="hamburger" width="60rem"
+              alt="r"></a>
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="models.html">Models</a></li>
@@ -26,118 +31,122 @@
     </nav>
   </header>
 
-    <div class="slideshow-container">
-      <div class="mySlides fade">
-        <img src="/trion_homepage_images/7_25-Lux-Black-Nemesis_rr-crop-1024x682.png" style="width:100%">
-      </div>
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="/trion_homepage_images/7_25-Lux-Black-Nemesis_rr-crop-1024x682.png" style="width:100%">
+    </div>
 
-      <div class="mySlides fade">
-        <img src="/trion_homepage_images/7_25-Lux-Black-Nemesis_side-cropped2-1024x575.png" style="width:100%">
-      </div>
+    <div class="mySlides fade">
+      <img src="/trion_homepage_images/7_25-Lux-Black-Nemesis_side-cropped2-1024x575.png" style="width:100%">
+    </div>
 
-      <div class="mySlides fade">
-        <img src="/trion_homepage_images/Nemesis_Interior_render1-1024x575.jpg" style="width:100%">
-      </div>
+    <div class="mySlides fade">
+      <img src="/trion_homepage_images/Nemesis_Interior_render1-1024x575.jpg" style="width:100%">
+    </div>
 
-      <div class="mySlides fade">
-        <img src="/trion_homepage_images/dup-reg-cloudy-road-1024x641.png" style="width:100%">
-      </div>
+    <div class="mySlides fade">
+      <img src="/trion_homepage_images/dup-reg-cloudy-road-1024x641.png" style="width:100%">
+    </div>
 
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
-      <br>
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    <br>
 
-      <div style="text-align:center">
+    <div style="text-align:center">
       <span class="dot" onclick="showSlides(0)"></span>
       <span class="dot" onclick="showSlides(1)"></span>
       <span class="dot" onclick="showSlides(2)"></span>
       <span class="dot" onclick="showSlides(3)"></span>
-      </div>
     </div>
+  </div>
 
-  <article  class="box_control">
+  <article class="box_control">
     <section class="content_box-new">
       <h1>Welcome</h1>
     </section>
-      <section class="content_box">
-        <p>At Trion, we beleive that power is everything. That is why our vehicles' horsepower is incomparable. The Trion Nemesis runs with over 2000 horsepower, and though that is an acheivement on our end, it is only the beginning of a line of highly powerful cars.</p>
-      </section>
-  </article>
-      <article class="img_control">
-        <section class="image_box">
-          <img src="trion_homepage_images/7_25-Lux-Black-Nemesis_fr34-1024x575.png " width="50%" alt="a">
-        </section>
-      </article>
-
-
-
-  <article  class="box_control">
     <section class="content_box">
-      <p>Explore our vehicles <a class="quick-link" href="/models.html">here</a>, on this website. You will leave changed.</p>
+      <p>At Trion, we beleive that power is everything. That is why our vehicles' horsepower is incomparable. The Trion
+        Nemesis runs with over 2000 horsepower, and though that is an acheivement on our end, it is only the beginning
+        of a line of highly powerful cars.</p>
     </section>
   </article>
-    <article>
-      <section class="image_box">
-        <img src="trion_homepage_images/nemesis trion car.PNG" width="60%" alt="a">
-      </section>
-    </article>
-    
-    <footer>
-        <section class="footer-title">
-          <p>TRION</p>
-        </section>
-        <section class="footer_content">
-          <p>CONTACT</p>
-          <p>INSERT EMAIL HERE:</p>
-          <p>________________________</p>
-          <p>Call us: #(123)456-7890</p>
-        </section>
-         <section class="footer_buttons">     
-          <a href="models.html">MODELS</a>
-          <a href="about-us.html">ABOUT US</a> 
-          <a href="merch.html">MERCH </a>
-          <a href="account_home.html">ACCOUNT</a>                                                             
-          <a href="models-configurator.html">CONFIGURATOR</a>
-    </footer>
-    <article class="footer_extra">
-      <p>Created by Lukas and Jack; November 2024</p>
-    </article>
+  <article class="img_control">
+    <section class="image_box">
+      <img src="trion_homepage_images/7_25-Lux-Black-Nemesis_fr34-1024x575.png " width="50%" alt="a">
+    </section>
+  </article>
 
-    <!-- java script -->
-    <script>
-      let slideIndex = 0;
-      showSlides(slideIndex);
-      
-      function plusSlides(n) {
-        console.log(n);
-        showSlides(slideIndex += n);
+
+
+  <article class="box_control">
+    <section class="content_box">
+      <p>Explore our vehicles <a class="quick-link" href="/models.html">here</a>, on this website. You will leave
+        changed.</p>
+    </section>
+  </article>
+  <article>
+    <section class="image_box">
+      <img src="trion_homepage_images/nemesis trion car.PNG" width="60%" alt="a">
+    </section>
+  </article>
+
+  <footer>
+    <section class="footer-title">
+      <p>TRION</p>
+    </section>
+    <section class="footer_content">
+      <p>CONTACT</p>
+      <p>INSERT EMAIL HERE:</p>
+      <p>________________________</p>
+      <p>Call us: #(123)456-7890</p>
+    </section>
+    <section class="footer_buttons">
+      <a href="models.html">MODELS</a>
+      <a href="about-us.html">ABOUT US</a>
+      <a href="merch.html">MERCH </a>
+      <a href="account_home.html">ACCOUNT</a>
+      <a href="models-configurator.html">CONFIGURATOR</a>
+  </footer>
+  <article class="footer_extra">
+    <p>Created by Lukas and Jack; November 2024</p>
+  </article>
+
+  <!-- java script -->
+  <script>
+    let slideIndex = 0;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      console.log(n);
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      console.log(n);
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length - 1) { n = 0 }
+      if (n < 0) {
+        n = slides.length - 1;
       }
-      
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
+      slideIndex = n;
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
       }
-      
-      function showSlides(n) {
-        console.log(n);
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length - 1) {n = 0}
-        if (n < 0) {
-          n = slides.length - 1;
-        }
-        slideIndex = n;
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].classList.remove("active");
-        }
-        slides[n].style.display = "block";  
-        dots[n].classList.add("active");
+      for (i = 0; i < dots.length; i++) {
+        dots[i].classList.remove("active");
       }
-      </script>
-      
-    
+      slides[n].style.display = "block";
+      dots[n].classList.add("active");
+    }
+  </script>
+
+
 </body>
+
 </html>
