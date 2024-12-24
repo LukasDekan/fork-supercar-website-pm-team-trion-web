@@ -925,6 +925,17 @@ footer {
 
 
       .image-container_hubcap{
+        width: 30%;
+
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+      .image-container_hubcap_widow{
+        width: 30%;
+
         display: block;
         flex-direction: column;
         align-items: center;
@@ -942,17 +953,18 @@ footer {
         display:flex;
         flex-direction: row;
         width: 60%;
-        align-self: flex-end;
+        align-self: center;
       }
 
       .config-options-widow a{
-        padding: 4rem; 
+        padding: 5rem;
+        height: 24rem; 
         text-decoration: none;
         background: black;
         color: white;
         border: solid 1px white;
-        text-align: center;
-        font-size: x-large;
+        text-align: left;
+        font-size: large;
       }
 
       .config-options-widow a:hover{
@@ -962,6 +974,7 @@ footer {
       }
 
       .config-options-widow #config-options_confirm-option{
+        padding: 5.1rem;
         background-color: grey;
         color: white;
       }
@@ -1278,6 +1291,8 @@ p, h1, h2, h3, h4 {
     .config_options_widow a{
       padding: 3.4vw;
     }
+
+    
 }
 
 /* xl */
@@ -1301,6 +1316,21 @@ p, h1, h2, h3, h4 {
   .config_options-special3 a {
     padding: 5vw;
   }
+
+  .config-options-widow a{
+    height: 18rem;
+    padding: 4rem;
+  }
+
+  .config-options-widow #config-options_confirm-option{
+    padding: 4rem;
+  }
+
+  .image-container_hubcap_widow{
+    width: 25%;
+  }
+
+
 
 
   /* .config_options_widow{
@@ -1399,6 +1429,20 @@ p, h1, h2, h3, h4 {
   nav{
     height: 40%;
   }
+
+
+  .config-options-widow a{
+    height: 14.5rem;
+    padding: 2.4rem;
+  }
+
+  .config-options-widow #config-options_confirm-option{
+    padding: 4.8rem;
+  }
+
+  .image-container_hubcap_widow{
+    width: 25%;
+  }
 }
 
 
@@ -1483,6 +1527,20 @@ p, h1, h2, h3, h4 {
       .text-container-config-history a{
         padding: 4rem;
         font-size: large;
+      }
+
+      .config-options-widow a{
+        height: 14.5rem;
+        padding: 1rem;
+        font-size: medium;
+      }
+    
+      .config-options-widow #config-options_confirm-option{
+        padding: 2.5rem;
+      }
+    
+      .image-container_hubcap_widow{
+        width: 25%;
       }
 }
 
@@ -1584,7 +1642,7 @@ width: 100%;
     }
     
     nav{
-      height: 18%;
+      height: 27%;
     }
 
     .text-container-config-history{
@@ -1600,6 +1658,29 @@ width: 100%;
       padding: 6rem;
       font-size: xx-large;
     }
+
+    .config-options-widow a{
+      height: 8.5rem;
+      padding: 1rem;
+      font-size: small;
+    }
+  
+    .config-options-widow #config-options_confirm-option{
+      padding: 1.5rem;
+    }
+  
+    .image-container_hubcap_widow{
+      width: 25%;
+    }
+    footer{
+      margin-top: auto;
+   }
+
+   body{
+       min-height: 100vh;
+       display: grid;
+       grid-template-rows: 1fr auto;
+   }  
 }
 
 /* @media (max-width: 511px){
@@ -1712,8 +1793,31 @@ width: 100%;
   }
   
   nav{
-    height: 18%;
+    height: 60%;
   }
+
+  .config-options-widow a{
+    height: 17.5rem;
+    padding: 0.4rem;
+    font-size: x-small;
+  }
+
+  .config-options-widow #config-options_confirm-option{
+    padding: 2.5rem;
+  }
+
+  .image-container_hubcap_widow{
+    width: 35%;
+  }
+  footer{
+    margin-top: 25vh;
+ }
+
+ body{
+     min-height: 100vh;
+     display: grid;
+     grid-template-rows: 1fr auto;
+ }  
 }
 
 /* med xs */
@@ -1739,6 +1843,29 @@ width: 100%;
     padding: 6rem;
     font-size: x-large;
   }
+
+  .config-options-widow a{
+    height: 8.5rem;
+    padding: 0.4rem;
+    font-size: small;
+  }
+
+  .config-options-widow #config-options_confirm-option{
+    padding: 1.5rem;
+  }
+
+  .image-container_hubcap_widow{
+    width: 25%;
+  }
+  footer{
+    margin-top: auto;
+ }
+
+ body{
+     min-height: 100vh;
+     display: grid;
+     grid-template-rows: 1fr auto;
+ }  
 }
 
 /* xxs */
@@ -1814,7 +1941,7 @@ margin-bottom: 13rem;
 }
 
 nav{
-  height: 18%;
+  height: 50%;
 }
 
   .footer_buttons a {
@@ -1839,6 +1966,40 @@ nav{
     padding: 4rem;
     font-size: large;
   }
+
+  .config-options-widow a{
+    font-size: xx-small;
+    padding: 0.1rem;
+    font-size: small;
+    align-content: center;
+    height: 5.5rem;
+  }
+
+  .config-options-widow #config-options_confirm-option{
+    font-size: xx-small;
+    padding: 0.9rem;
+  }
+
+  .image-container_hubcap_widow{
+    align-self: flex-start;
+    width: 18rem
+  }
+  .config_option-controller-hubcaps {
+    flex-direction: column;
+  }
+
+  .image-container_hubcap_widow{
+    width: 17rem;
+  }
+  footer{
+    margin-top: auto;
+ }
+
+ body{
+     min-height: 100vh;
+     display: grid;
+     grid-template-rows: 1fr auto;
+ } 
 
   
 }
