@@ -600,16 +600,16 @@ footer {
         align-self: flex-end;
       }
 
-      .config_options-special a{
+      .config_options-special a {
         justify-self: flex-start;
         text-decoration: none;
         background: black;
         padding: 7.2rem;
         color: white;
         border: solid 1px white;
-        text-align: center;
+        text-align: left;
         font-size: large;
-      }
+    }
 
       .config_options-special a:hover{
         background-color: darkgrey;
@@ -1382,6 +1382,10 @@ p, h1, h2, h3, h4 {
   .hubcap-image{
     width: 70%;
   }
+
+  .black_widow-image{
+    width: 70%;
+  }
   ul li ul li {
     padding:0.18rem;
   }
@@ -1487,7 +1491,7 @@ p, h1, h2, h3, h4 {
     
     }
     .hubcap-image{
-      width: 90%;
+      width: 80%;
       height: 68vw;
     }
 
@@ -1919,7 +1923,7 @@ footer{
 
 .config_options-special a {
   padding: 3vw;
-  font-size: medium;
+  font-size: xx-small;
 }
 
 .config_options-special3 a {
