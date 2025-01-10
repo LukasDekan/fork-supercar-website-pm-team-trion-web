@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flex.css">
+    <title>customize</title>
+</head>
+<body>
+
+  <header>
+    <nav role="navigation">
+      <ul>
+        <li><li><a href="index.html"><img src="trion_homepage_images/Trion_logo.png" class="home_button" width="100"
+              alt="aeradsf"></a></li>
+        <li class="dropdown"><a href="#"><img src="/trion_homepage_images/menu.png" class="hamburger" width="90"
+              alt="r"></a>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="models.html">Models</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="merch.html">Merch</a></li>
+            <li><a href="account_home.html">Account</a></li>
+            <li><a href="models-configurator.html">Configurator</a></li>
+            <li><a href="shopping_cart.html">Shopping Cart</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+      <style>
+        .customize_image {
+          padding: 10rem;
+          margin: 10rem;
+          align-items: center;
+          justify-content: center;
+          font-family: center;
+        }
+
+        p, h1, h2 {
+          color: white;
+          text-align: left;
+        }
+
+        li {
+          color: black;
+        }
+
+        .dropdown_size {
+        position: center;
+        right: 0;
+        width: fit-content;
+        }
+
+        ul li ul {
+        flex-direction: column;
+        gap: 0.1rem;
+        padding: 0.5rem;
+        background-color: grey;
+        visibility: hidden;
+        opacity: 0;
+        min-width: 0.2rem;
+        position: absolute;
+        transition: all 0.2s ease;
+        margin-top: 1rem;
+        right: 0;
+        display: none;
+        width: fit-content;
+      }
+
+      </style>
+
+    
+    <article class="customize_image">
+      <img src="merch image/T-shirts_trion_merch - Copy.png">
+      <h1>Black Top Right</h1>
+      <h2>$30</h2>
+      <p>description:</p>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi perspiciatis fugit expedita maxime voluptates non nemo accusamus aut quae recusandae iste provident nisi, saepe ullam voluptas maiores! Excepturi, animi debitis?</p>
+      <section>
+        <ul>
+          <li class="dropdown_size"><h1>size</h1>
+          <ul>
+          <li>XS</li>
+          <li>S</li>
+          <li>M</li>
+          <li>L</li>
+          <li>XL</li>
+          <li>XXL</li>
+          </ul>
+          </li>
+        </ul>
+    </section>
+
+    
+    <section class="cart">
+      <a href="shopping_cart.html" style="color: white;">Add to Cart</a>
+    </section>
+
+    </article>
+
+
+      
+      <style>
+        .cart {
+          background-image: linear-gradient(gray, black, gray);
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 20%;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+
+
+        
+
+
+      </style>
+
+    <footer>
+        <section class="footer-title">
+          <p>TRION</p>
+        </section>
+        <section class="footer_content">
+          <p>CONTACT</p>
+          <p>INSERT EMAIL HERE:</p>
+          <p>________________________</p>
+          <p>Call us: #123-456-7890</p>
+        </section>
+         <section class="footer_buttons">     
+          <a href="models.html">MODELS</a>
+          <a href="about-us.html">ABOUT US</a> 
+          <a href="merch.html">MERCH </a>
+          <a href="account_home.html">ACCOUNT</a>                                                             
+          <a href="models-configurator.html">CONFIGURATOR</a>
+    </footer>
+    <article class="footer_extra">
+      <p>Created by Lukas and Jack; November 2024</p>
+    </article>
+</body>
+</html>
