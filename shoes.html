@@ -6,6 +6,38 @@
     <link rel="stylesheet" href="flex.css">
     <title>Document</title>
 </head>
+<style>
+  #shirt-hero {
+      width: 100%;
+      /* height: 300px; */
+      object-fit: contain;
+  }
+
+  .shirt-row {
+      padding: 1rem;
+  }
+
+  .shirt-container {
+      display: flex;
+      gap: 5.2rem;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .shirt-container > div {
+      width: 190px;
+      height: 250px;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .shirt-container > div > img {
+      border: none;
+      object-fit: cover;
+  }
+</style>
 <body>
   <header>
     <nav role="navigation">
@@ -27,29 +59,33 @@
       </ul>
     </nav>
   </header>
+  <section id="merch-header">
+
+    <a href="/shopping_cart.html"><img src="merch image/shopping_Cart-removebg-preview.png" width="45rem" alt="shopping_cart"></a>
+  </section>
 
     <section>
-        <img src="merch image/Shirts-hero-image.png">
+      <img src="merch image/Shirts-hero-image.png" id="shirt-hero">
     </section>
 
-    <section>
-        <article>
-            <img src="merch image/Shoes_trion_merch.png">
+    <section class="shirt-row">
+        <article class="shirt-container">
+            <img src="merch image/Shoes_trion_merch.png" width="20%">
             <img src="merch image/red trion shoes.jpg">
             <img src="merch image/blue trion shoes.png">
         </article>
     </section>
 
-    <section>
-        <article>
+    <section class="shirt-row">
+        <article class="shirt-container">
             <img src="merch image/cyan trion shoes.jpg">
             <img src="merch image/brown trion shoes.jpg">
             <img src="merch image/green trion shoes.jpg">
         </article>
     </section>
 
-    <section>
-        <article>
+    <section class="shirt-row">
+        <article class="shirt-container">
             <img src="merch image/white trion shoes.png">
             <img src="merch image/orange trion shoes.jpg">
             <img src="merch image/purple trion shoes.jpg">
