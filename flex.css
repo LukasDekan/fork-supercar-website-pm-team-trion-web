@@ -1506,6 +1506,9 @@ p, h1, h2, h3, h4 {
 
 /* md */
 @media (max-width: 768px) {
+  .merch-item > .merch-description {
+    width: 250px;
+  }
   ul li ul li {
     font-size: 2rem;
     padding:0.15rem;
@@ -1751,6 +1754,14 @@ width: 100%;
 /* xs */
 @media (max-width: 475px) {
 
+  .merch-item > .merch-description {
+    width: 150px;
+  }
+
+  .merch-item > .merch-description p{
+    font-size: small;
+  }
+
   .content_box {
     padding: 3vw;
     font-size: small;
@@ -1885,6 +1896,19 @@ width: 100%;
 
 /* med xs */
 @media (max-width: 425px) {
+  .merch-item > .merch-description {
+    width: 125px;
+  }
+
+  .merch-item > .merch-description p{
+    font-size: x-small;
+  }
+
+  #merch-header {
+    margin: 0.1rem;
+  }
+
+  
   .text-container-apply-confirm h1{
     font-size: large;
   }
@@ -1936,8 +1960,35 @@ width: 100%;
 }
 }
 
+@media (max-width: 400px){
+  #merch-header {
+    margin: 0.1rem;
+  }
+  #merch-header h1 {
+    margin: 2rem;
+    font-size: 300%;
+  }
+}
+
 /* xxs */
 @media (max-width: 300px) { 
+
+  ul {
+    width: 50%;
+  }
+
+  .merch-item > .merch-description p{
+    font-size: xx-small;
+  }
+
+  #merch-header {
+    margin: 0.2rem;
+  }
+
+  #merch-header h1 {
+    margin: 2rem;
+    font-size: 240%;
+  }
   .content_box {
     padding: 2vw;
     font-size: x-small;
@@ -1956,7 +2007,7 @@ width: 100%;
   }
 
   .footer_extra p{
-    font-size: x-large;
+    font-size: x-small;
   }
 
 
@@ -2065,7 +2116,7 @@ nav{
 
  body{
      min-height: 100vh;
-     display: grid;
+     /* display: grid; */
      grid-template-rows: 1fr auto;
  }  
 
