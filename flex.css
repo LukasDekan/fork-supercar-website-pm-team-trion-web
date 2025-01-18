@@ -242,7 +242,7 @@ header marquee img{
       .models_text-box a:hover{
         border-radius: 0.2rem;
         color: black;
-        transition-duration: 20 0ms;
+        transition-duration: 20ms;
       }
 
       .models_text-box2{
@@ -252,7 +252,7 @@ header marquee img{
         border-top: solid 1px white;
         border-bottom: solid 1px white;
         padding: 3rem;
-        width: 100%;
+        width: 100%;  
       }
 
       .models_text-box2 a{
@@ -264,7 +264,7 @@ header marquee img{
       .models_text-box2 a:hover{
         border-radius: 0.2rem;
         color: black;
-        transition-duration: 20 0ms;
+        transition-duration: 20ms;
       }
 
       #config-options_confirm-option{
@@ -820,11 +820,7 @@ footer {
         background-color: darkgrey;
         color:black;
         transition-duration: 300ms;
-      }
-
-      .headlight_link-text{
-        align-self: left;
-      }
+      } 
 
       .image_config_controller{
         display: block;
@@ -875,7 +871,6 @@ footer {
 
       .next_prev-controller{
         display:flex;
-        justify-items:space-between;
         align-items: flex-start;
       }
 
